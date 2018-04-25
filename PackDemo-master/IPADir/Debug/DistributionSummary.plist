@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PackDemo-master.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>BB5585BAF1305495FE08AF077E79AAA0F7E4734B</string>
+				<key>dateExpires</key>
+				<string>2018/5/6</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>KY6FB832P8.com.SSQJ.PackDemo-master</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>KY6FB832P8</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>KY6FB832P8.com.SSQJ.PackDemo-master</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>PackDemo-master.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>841188fc-9eda-4bc3-9231-895acd1f2992</string>
+				<key>name</key>
+				<string>PackTestAdHoc</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>KY6FB832P8</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

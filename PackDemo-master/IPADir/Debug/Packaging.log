@@ -1,0 +1,121 @@
+2018-04-25 03:25:57 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fca85067770; archive(resolved)='<IDEArchive: 0x7fca84ec90c0>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7fca84b7b720>', team(resolved)='<IDEProvisioningBasicTeam 0x7fca84adbcb0: teamID: KY6FB832P8, teamName: (null)>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fca85067770; archive = '<IDEArchive: 0x7fca84ec90c0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fca84b7b720>', team='<IDEProvisioningBasicTeam 0x7fca84adbcb0: teamID: KY6FB832P8, teamName: (null)>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fca8505f300; archive = '<IDEArchive: 0x7fca84ec90c0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fca84b7b720>', team='<IDEProvisioningBasicTeam 0x7fca84adbcb0: teamID: KY6FB832P8, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fca8505f0a0; archive = '<IDEArchive: 0x7fca84ec90c0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fca84b7b720>', team='<IDEProvisioningBasicTeam 0x7fca84adbcb0: teamID: KY6FB832P8, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fca85050020; archive = '<IDEArchive: 0x7fca84ec90c0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fca84b7b720>', team='<IDEProvisioningBasicTeam 0x7fca84adbcb0: teamID: KY6FB832P8, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fca8504fee0; archive = '<IDEArchive: 0x7fca84ec90c0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fca84b7b720>', team='<IDEProvisioningBasicTeam 0x7fca84adbcb0: teamID: KY6FB832P8, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fca8505a0f0; archive = '<IDEArchive: 0x7fca84ec90c0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fca84b7b720>', team='<IDEProvisioningBasicTeam 0x7fca84adbcb0: teamID: KY6FB832P8, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fca8503bf90; archive = '<IDEArchive: 0x7fca84ec90c0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fca84b7b720>', team='<IDEProvisioningBasicTeam 0x7fca84adbcb0: teamID: KY6FB832P8, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fca85056ec0; archive = '<IDEArchive: 0x7fca84ec90c0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fca84b7b720>', team='<IDEProvisioningBasicTeam 0x7fca84adbcb0: teamID: KY6FB832P8, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fca84ed8f20; archive = '<IDEArchive: 0x7fca84ec90c0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fca84b7b720>', team='<IDEProvisioningBasicTeam 0x7fca84adbcb0: teamID: KY6FB832P8, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fca84b81e30; archive = '<IDEArchive: 0x7fca84ec90c0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fca84b7b720>', team='(null)'>
+	<IDEDistributionContext: 0x7fca84ec98b0; archive = '<IDEArchive: 0x7fca84ec90c0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fca85067770>
+2018-04-25 03:25:57 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2018-04-25 03:25:57 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2018-04-25 03:25:57 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/iOS-Developer/Documents/iOS-OC-master/2018/0424/PackDemo-master/build/PackDemo-master.xcarchive/Products/Applications/PackDemo-master.app' '/var/folders/ml/gnzj7lvs3b92s2zl0nc0hhzw0000gp/T/XcodeDistPipeline.mJv/Root/Payload/PackDemo-master.app'
+2018-04-25 03:25:57 +0000  >>> Copying /Users/iOS-Developer/Documents/iOS-OC-master/2018/0424/PackDemo-master/build/PackDemo-master.xcarchive/Products/Applications/PackDemo-master.app 
+2018-04-25 03:25:57 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-04-25 03:25:57 +0000  5133 bytes for ./_CodeSignature/CodeResources
+copying file ./archived-expanded-entitlements.xcent ... 
+2018-04-25 03:25:57 +0000  386 bytes for ./archived-expanded-entitlements.xcent
+copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-04-25 03:25:57 +0000  1985 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-04-25 03:25:57 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2018-04-25 03:25:57 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+1986 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2018-04-25 03:25:57 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-04-25 03:25:57 +0000  916 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./embedded.mobileprovision ... 
+2018-04-25 03:25:57 +0000  14043 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+1155 bytes for ./Info.plist
+copying file ./PackDemo-master ... 
+2018-04-25 03:25:57 +0000  242624 bytes for ./PackDemo-master
+2018-04-25 03:25:57 +0000  
+2018-04-25 03:25:57 +0000 [MT] /usr/bin/ditto exited with 0
+2018-04-25 03:25:57 +0000  copying file ./PkgInfo ... 
+8 bytes for ./PkgInfo
+2018-04-25 03:25:57 +0000  
+2018-04-25 03:25:57 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2018-04-25 03:25:57 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2018-04-25 03:25:57 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-04-25 03:25:57 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
+2018-04-25 03:25:57 +0000 [MT] Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-04-25 03:25:57 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
+2018-04-25 03:25:57 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-04-25 03:25:57 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-04-25 03:25:57 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2018-04-25 03:25:57 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2018-04-25 03:25:57 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2018-04-25 03:25:57 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2018-04-25 03:25:57 +0000 [MT] Processing step: IDEDistributionODRStep
+2018-04-25 03:25:57 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2018-04-25 03:25:57 +0000 [MT] Running /usr/bin/xattr '-crs' '/var/folders/ml/gnzj7lvs3b92s2zl0nc0hhzw0000gp/T/XcodeDistPipeline.mJv/Root/Payload/PackDemo-master.app'
+2018-04-25 03:25:58 +0000  
+2018-04-25 03:25:58 +0000  2018-04-25 03:25:58 +0000 [MT] /usr/bin/xattr exited with 0
+
+2018-04-25 03:25:58 +0000  
+2018-04-25 03:25:58 +0000  2018-04-25 03:25:58 +0000 [MT] Processing step: IDEDistributionCodesignStep
+
+2018-04-25 03:25:58 +0000 [MT] Applying entitlements delta for <IDEDistributionItem: 0x7fca85052890 'com.SSQJ.PackDemo-master' '<DVTFilePath:0x7fca84ec9400:'/Users/iOS-Developer/Documents/iOS-OC-master/2018/0424/PackDemo-master/build/PackDemo-master.xcarchive/Products/Applications/PackDemo-master.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7fca85058c10>: {
+}
+2018-04-25 03:25:58 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fca85052890 'com.SSQJ.PackDemo-master' '<DVTFilePath:0x7fca84ec9400:'/Users/iOS-Developer/Documents/iOS-OC-master/2018/0424/PackDemo-master/build/PackDemo-master.xcarchive/Products/Applications/PackDemo-master.app'>'>: {
+    "application-identifier" = "KY6FB832P8.com.SSQJ.PackDemo-master";
+    "com.apple.developer.team-identifier" = KY6FB832P8;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "KY6FB832P8.com.SSQJ.PackDemo-master"
+    );
+}
+2018-04-25 03:25:58 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fca85052890 'com.SSQJ.PackDemo-master' '<DVTFilePath:0x7fca84ec9400:'/Users/iOS-Developer/Documents/iOS-OC-master/2018/0424/PackDemo-master/build/PackDemo-master.xcarchive/Products/Applications/PackDemo-master.app'>'> to: /var/folders/ml/gnzj7lvs3b92s2zl0nc0hhzw0000gp/T/XcodeDistPipeline.mJv/entitlementsaOHnFp
+2018-04-25 03:25:58 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' 'BB5585BAF1305495FE08AF077E79AAA0F7E4734B' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ml/gnzj7lvs3b92s2zl0nc0hhzw0000gp/T/XcodeDistPipeline.mJv/entitlementsaOHnFp' '/var/folders/ml/gnzj7lvs3b92s2zl0nc0hhzw0000gp/T/XcodeDistPipeline.mJv/Root/Payload/PackDemo-master.app'
+2018-04-25 03:25:58 +0000  /var/folders/ml/gnzj7lvs3b92s2zl0nc0hhzw0000gp/T/XcodeDistPipeline.mJv/Root/Payload/PackDemo-master.app: signed app bundle with Mach-O universal (armv7 arm64) [com.SSQJ.PackDemo-master]
+2018-04-25 03:25:58 +0000  
+2018-04-25 03:25:58 +0000  
+2018-04-25 03:25:58 +0000  
+2018-04-25 03:25:58 +0000  
+2018-04-25 03:25:58 +0000 [MT] /usr/bin/codesign exited with 02018-04-25 03:25:58 +0000  
+2018-04-25 03:25:58 +0000  
+
+2018-04-25 03:25:58 +0000 [MT] Processing step: IDEDistributionStreamingZipItemStep
+2018-04-25 03:25:58 +0000 [MT] Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-25 03:25:58 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2018-04-25 03:25:58 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/ml/gnzj7lvs3b92s2zl0nc0hhzw0000gp/T/XcodeDistPipeline.mJv/Root' '/var/folders/ml/gnzj7lvs3b92s2zl0nc0hhzw0000gp/T/XcodeDistPipeline.mJv/Packages/PackDemo-master.ipa'
+2018-04-25 03:25:58 +0000  >>> Copying /var/folders/ml/gnzj7lvs3b92s2zl0nc0hhzw0000gp/T/XcodeDistPipeline.mJv/Root 
+2018-04-25 03:25:58 +0000  copying file ./Payload/PackDemo-master.app/_CodeSignature/CodeResources ... 
+2018-04-25 03:25:58 +0000  5133 bytes for ./Payload/PackDemo-master.app/_CodeSignature/CodeResources
+2018-04-25 03:25:58 +0000  copying file ./Payload/PackDemo-master.app/archived-expanded-entitlements.xcent ... 
+386 bytes for ./Payload/PackDemo-master.app/archived-expanded-entitlements.xcent
+copying file ./Payload/PackDemo-master.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+1985 bytes for ./Payload/PackDemo-master.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/PackDemo-master.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-04-25 03:25:58 +0000  258 bytes for ./Payload/PackDemo-master.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/PackDemo-master.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+832 bytes for ./Payload/PackDemo-master.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/PackDemo-master.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-04-25 03:25:58 +0000  1986 bytes for ./Payload/PackDemo-master.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/PackDemo-master.app/Base.lproj/Main.storyboardc/Info.plist ... 
+258 bytes for ./Payload/PackDemo-master.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/PackDemo-master.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-04-25 03:25:58 +0000  916 bytes for ./Payload/PackDemo-master.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Payload/PackDemo-master.app/embedded.mobileprovision ... 
+2018-04-25 03:25:58 +0000  10009 bytes for ./Payload/PackDemo-master.app/embedded.mobileprovision
+copying file ./Payload/PackDemo-master.app/Info.plist ... 
+2018-04-25 03:25:58 +0000  1155 bytes for ./Payload/PackDemo-master.app/Info.plist
+copying file ./Payload/PackDemo-master.app/PackDemo-master ... 
+2018-04-25 03:25:58 +0000  143728 bytes for ./Payload/PackDemo-master.app/PackDemo-master
+copying file ./Payload/PackDemo-master.app/PkgInfo ... 
+2018-04-25 03:25:58 +0000  8 bytes for ./Payload/PackDemo-master.app/PkgInfo
+2018-04-25 03:25:58 +0000  
+2018-04-25 03:25:58 +0000  2018-04-25 03:25:58 +0000 [MT] /usr/bin/ditto exited with 0
+
+2018-04-25 03:25:58 +0000  2018-04-25 03:25:58 +0000  
+
+2018-04-25 03:25:58 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
